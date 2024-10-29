@@ -32,9 +32,26 @@ h1{
 }
 
 main{
+    min-height: 770px;
+    max-height: 770px;
+    overflow: auto;
+}
+.contato{
+    padding: 10px 0px 10px 0px;
+}
+.contato:hover{
+    background-color: gray;
     
-    min-height: 590px;
-    max-height: 590px;
+}
+.ctt_img{
+    background: #ccc;
+    margin: 0px 10px;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+}
+.nomes{
+    margin-left: 60px;
 }
 
 
